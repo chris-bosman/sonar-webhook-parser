@@ -15,6 +15,6 @@ EXPOSE 8181
 
 ENV HOST=0.0.0.0
 ENV PORT=8181
-ENV SLACK_WEBHOOK_URL=https://hooks.slack.com/services/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
+ENV SLACK_WEBHOOK_URL=
 
 CMD [ "node", "index.js" ]
