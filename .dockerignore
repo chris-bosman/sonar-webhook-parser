@@ -75,6 +75,11 @@ typings/
 # FuseBox cache
 .fusebox/
 
-# User-provided
-*.js
-test-data/
+# User-added
+LICENSE
+package-lock.json
+.gitignore
+.gitattributes
+.js
+Dockerfile
+demo.json

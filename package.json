@@ -1,0 +1,35 @@
+{
+  "name": "sonar-webhook-parser",
+  "version": "1.0.0",
+  "description": "parser for sonarcloud webhooks",
+  "main": "index.ts",
+  "scripts": {
+    "test": "test",
+    "start": "node index.js",
+    "watch": "nodemon"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/chris-bosman/sonar-webhook-parser.git"
+  },
+  "author": "Chris Bosman",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/chris-bosman/sonar-webhook-parser/issues"
+  },
+  "homepage": "https://github.com/chris-bosman/sonar-webhook-parser#readme",
+  "dependencies": {
+    "@hapi/boom": "^7.4.2",
+    "@hapi/hapi": "^18.3.1",
+    "@slack/webhook": "^5.0.0",
+    "dotenv": "^8.0.0"
+  },
+  "devDependencies": {
+    "@types/boom": "^7.2.1",
+    "@types/hapi": "^18.0.2",
+    "@types/node": "^12.0.0",
+    "nodemon": "^1.19.0",
+    "ts-node": "^8.1.0",
+    "typescript": "^3.4.5"
+  }
+}
