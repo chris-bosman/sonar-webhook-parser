@@ -2,7 +2,7 @@ require('dotenv').config();
 
 const Hapi = require('@hapi/hapi')
 
-var routes = require('./routes');
+var routes = require('./internalRoutes');
 
 const app = new Hapi.Server({
     port: process.env.PORT, host: process.env.HOST,
