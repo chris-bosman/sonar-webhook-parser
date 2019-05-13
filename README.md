@@ -8,7 +8,7 @@ First, clone this repository.
 
 `git clone https://github.com/chris-bosman/sonar-webhook-parser.git`
 
-Modify the `Dockerfile` to include your own `SLACK_WEBHOOK_URL` and, optionally, a `SLACK_ALERT_URL` for alerting a separate channel only of failed quality gates:
+Modify the `Dockerfile` to include your own `SLACK_WEBHOOK_URL` and a `SLACK_ALERT_URL` for alerting a separate channel only of failed quality gates:
 
 ```
 ...
