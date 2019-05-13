@@ -4,10 +4,10 @@ async function parseSonarPayload (request) {
     const data = request.payload;
 
     if (data.qualityGate.status == "OK") {
-        var slackText = "All Quality Gates have passed"
+        var slackText = "_*All Quality Gates have passed*_"
         var slackColor = "#36a64f"
     } else {
-        slackText = "At least one Quality Gate has failed"
+        slackText = "_*At least one Quality Gate has failed*_"
         slackColor = "#ff0000"
     }
 
