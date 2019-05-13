@@ -21,6 +21,10 @@ Then, build the Docker file.
 
 `docker build . -t <friendly name>`
 
+## Running
+
+You can run locally via `npm run watch`. This leverages `nodemon` and auto-pulls in changes you make to your Typescript files. By default, it will run at `localhost:8181`. You can also run in Docker via `docker run -p 8181:8181 <friendly name>` and it will, again, be exposed at `localhost:8181`. If you would like to expose it at a different port, you can adjust the first number in the `-p` command.
+
 ## Deploying
 
 This part is up to you. Any infrastructure that can run a Docker image can run this. If you need to provide to your service the port, this application runs by default on port 8181. This can be changed by modifying the `ENV PORT` setting in the `Dockerfile`.
