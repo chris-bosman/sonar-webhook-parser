@@ -36,7 +36,7 @@ async function parseSonarPayload (request) {
         "fields": results
     }
 
-    if (data.qualityGate.status != "OK") {
+    if ((data.qualityGate.status != "OK" ) && (data.branch.name == "develop")) {
         alertSlack(message);
     }
 
