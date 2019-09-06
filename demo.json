@@ -1,0 +1,54 @@
+{
+    "analysedAt": "2016-11-18T10:46:28+0100",
+    "project": {
+        "key": "org.sonarqube:example",
+        "name": "Example"
+    },
+    "branch": {
+        "name": "develop",
+        "url": "https://sonarcloud.io/project/issues?branch=ok-pillbox-single-model&id=predictiveindex_pi-spa&resolved=false"
+    },
+    "properties": {
+        "sonar.analysis.user": " Chris Bosman"
+    },
+    "qualityGate": {
+        "conditions": [
+            {
+                "errorThreshold": "1",
+                "metric": "new_security_rating",
+                "onLeakPeriod": true,
+                "operator": "GREATER_THAN",
+                "status": "OK",
+                "value": "1"
+            },
+            {
+                "errorThreshold": "1",
+                "metric": "new_reliability_rating",
+                "onLeakPeriod": true,
+                "operator": "GREATER_THAN",
+                "status": "ERROR",
+                "value": "3"
+            },
+            {
+                "errorThreshold": "1",
+                "metric": "new_maintainability_rating",
+                "onLeakPeriod": true,
+                "operator": "GREATER_THAN",
+                "status": "OK",
+                "value": "1"
+            },
+            {
+                "errorThreshold": "80",
+                "metric": "new_coverage",
+                "onLeakPeriod": true,
+                "operator": "LESS_THAN",
+                "status": "NO_VALUE"
+            }
+        ],
+        "name": "SonarQube way",
+        "status": "ERROR"
+    },
+    "serverUrl": "https://sonarcloud.io",
+    "status": "SUCCESS",
+    "taskId": "AVh21JS2JepAEhwQ-b3u"
+}

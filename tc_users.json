@@ -1,0 +1,104 @@
+{
+  "slackUsers": [
+    {
+      "email": "mohearn@predictiveindex.com",
+      "id": "U0BDWGB8C",
+      "gitUser": "Michael O'Hearn"
+    },
+    {
+      "email": "jficara@predictiveindex.com",
+      "id": "U0BDZ2VBN",
+      "gitUser": "Joseph Ficara"
+    },
+    {
+      "email": "jwang@predictiveindex.com",
+      "id": "U0BE4M2E4",
+      "gitUser": "jjwangpi"
+    },
+    {
+      "email": "akumar@predictiveindex.com",
+      "id": "U0C4895GD",
+      "gitUser": "Ajay Kumar"
+    },
+    {
+      "email": "wcarson@predictiveindex.com",
+      "id": "U0GAU3P60",
+      "gitUser": "PI\\wcarson"
+    },
+    {
+      "email": "pyadav@predictiveindex.com",
+      "id": "U0J5Y25BN",
+      "gitUser": "pyadavPI"
+    },
+    {
+      "email": "tpalumbo@predictiveindex.com",
+      "id": "U0JNXQ7TK",
+      "gitUser": "PI\\tpalumbo"
+    },
+    {
+      "email": "wseitz@predictiveindex.com",
+      "id": "U0YC1FKSP",
+      "gitUser": "willseitz"
+    },
+    {
+      "email": "lvanvoorhis@predictiveindex.com",
+      "id": "U38TMSRQB",
+      "gitUser": "Lyon Van Voorhis"
+    },
+    {
+      "email": "svalentin@predictiveindex.com",
+      "id": "U69RAD43X",
+      "gitUser": "Stefan Valentin"
+    },
+    {
+      "email": "cbosman@predictiveindex.com",
+      "id": "U9JN4KHNZ",
+      "gitUser": "Chris Bosman"
+    },
+    {
+      "email": "savery@predictiveindex.com",
+      "id": "UBLKJ2QNM",
+      "gitUser": "SAvery"
+    },
+    {
+      "email": "rmooney@predictiveindex.com",
+      "id": "UCZKTC1PC",
+      "gitUser": "Rob Mooney"
+    },
+    {
+      "email": "dalvarez@predictiveindex.com",
+      "id": "UE3QPR2R4",
+      "gitUser": "david1alvarez"
+    },
+    {
+      "email": "thervey@predictiveindex.com",
+      "id": "UEKGX4LCW",
+      "gitUser": "Travis Hervey"
+    },
+    {
+      "email": "enwoke@predictiveindex.com",
+      "id": "UEQSRTGUX",
+      "gitUser": "enwokepi"
+    },
+    {
+      "email": "sryu@predictiveindex.com",
+      "id": "UFYFHUXHD",
+      "gitUser": "Seokhyeon Ryu"
+    },
+    {
+      "email": "hliu@predictiveindex.com",
+      "id": "UGPGT0BJN",
+      "gitUser": "HenryLiuPI"
+    },
+    {
+      "email": "rbirch@predictiveindex.com",
+      "id": "UJ5768JAJ",
+      "gitUser": "rbirch-predictiveindex-com"
+    },
+    {
+      "email": "scho@predictiveindex.com",
+      "id": "UJH6Q1NG1",
+      "gitUser": "Soo Cho"
+    }
+  ]
+}
