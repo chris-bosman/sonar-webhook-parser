@@ -1,4 +1,4 @@
-import importedUsers from './tc_users.json';
+import importedUsers from './slack_users.json';
 
 function findSlackUser(gitUser) {
     for (var i = 0; i < importedUsers.slackUsers.length; i++) {
