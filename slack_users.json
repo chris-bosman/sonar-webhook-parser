@@ -3,7 +3,7 @@
     {
       "email": "name@domain.com",
       "id": "slackUserId",
-      "gitUser": "FirstName LastName"
+      "gitUser": "Git Username"
     }
   ]
 }

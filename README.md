@@ -8,12 +8,13 @@ First, clone this repository.
 
 `git clone https://github.com/chris-bosman/sonar-webhook-parser.git`
 
-Modify the `Dockerfile` to include your own `SLACK_WEBHOOK_URL` and a `SLACK_ALERT_URL` for alerting a separate channel only of failed quality gates:
+Modify the `Dockerfile` to include your own values for `SLACK_WEBHOOK_URL`, `SLACK_ALERT_URL`, and `SLACK_KEY`.
 
-```
+```env
 ...
 ENV SLACK_WEBHOOK_URL=https://hooks.slack.com/services/<your values>
 ENV SLACK_ALERT_URL=https://hooks.slack.com/services/<your values>
+ENV SLACK_KEY=<your values>
 ...
 ```
 
@@ -29,8 +30,8 @@ You can run locally via `npm run watch`. This leverages `nodemon` and auto-pulls
 
 This part is up to you. Any infrastructure that can run a Docker image can run this. If you need to provide to your service the port, this application runs by default on port 8181. This can be changed by modifying the `ENV PORT` setting in the `Dockerfile`.
 
-It is recommended that you leave the `SLACK_*_URL` environment variables blank in your `Dockerfile`. This is to prevent sensitive information, namely your Webhook URLs, from living in your code repository. Thus, when you deploy, you will have to provide the application with values for these environment variables in a method that suits your deployment target.
+It is recommended that you leave the `SLACK_*` environment variables blank in your `Dockerfile`. This is to prevent sensitive information, namely your Webhook URLs, from living in your code repository. Thus, when you deploy, you will have to provide the application with values for these environment variables in a method that suits your deployment target.
 
 ## Development
 
-If you'd like to make changes to the application yourself, you'll need to create a `.env` file with vales for `HOST`, `PORT`, `SLACK_WEBHOOK_URL`, and `SLACK_ALERT_URL` for local development.
+If you'd like to make changes to the application yourself, you'll need to create a `.env` file with values for `HOST`, `PORT`, `SLACK_WEBHOOK_URL`, `SLACK_ALERT_URL`, and `SLACK_KEY` for local development.
