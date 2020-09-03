@@ -20,7 +20,7 @@
   "homepage": "https://github.com/chris-bosman/sonar-webhook-parser#readme",
   "dependencies": {
     "@hapi/boom": "^7.4.2",
-    "@hapi/hapi": "^18.3.1",
+    "@hapi/hapi": "^19.1.1",
     "@slack/webhook": "^5.0.0",
     "dotenv": "^8.0.0"
   },
